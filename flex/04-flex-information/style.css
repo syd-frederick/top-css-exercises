@@ -24,3 +24,36 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* My solution:  */
+.info-container {
+  display: flex;
+  gap: 52px;
+  flex: none;
+}
+
+.plant-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px;
+  flex: none;
+}
+
+.text {
+  flex-wrap: wrap;
+  flex: 1;
+  margin: 8px;
+  text-align: center;
+  flex: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  margin-bottom: 32px;
+}
