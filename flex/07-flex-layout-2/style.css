@@ -78,3 +78,8 @@ ul {
   min-width: 300px;
   padding: 16px;
 }
+
+a {
+  text-decoration: none;
+  color: white;
+}
